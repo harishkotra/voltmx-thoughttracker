@@ -1,0 +1,81 @@
+{
+    "AS_Button_b5c196c33aff4629af9ffaf0e8d6a64e": {
+        "id": "AS_Button_b5c196c33aff4629af9ffaf0e8d6a64e",
+        "type": "ACTION_SEQUENCE",
+        "name": "saveBtnClickAction",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "MoodTracker",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e32fd89183ad4556a188aea2f9559792"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "LOADING_INDICATOR_fa1d589d6bf14ff987094af961d80c4e",
+            "selectedOption": "show",
+            "type": "LOADING_INDICATOR",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "INVOKE_SERVICE_c0ebc1d6789c465982164d6ec47cedd3",
+            "type": "INVOKE_OBJECT_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": null,
+            "isoffline": null,
+            "isobject": true,
+            "mappings": {
+                "ME_Mapping_deea65afea1347a18969420a6b1361f4": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_deea65afea1347a18969420a6b1361f4",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Variables",
+                        "propertyName": "userMood",
+                        "dataType": "number",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "mood",
+                        "dataType": "number",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "UserMoodTrackerDB",
+                            "type": "objectsvcs",
+                            "objectname": "UserMoodsModel",
+                            "serviceid": "106401c4-a870-49be-93aa-b1b152461a4f",
+                            "methodname": "create"
+                        }
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_deea65afea1347a18969420a6b1361f4"],
+            "serviceconfig": {
+                "servicename": "UserMoodTrackerDB",
+                "type": "objectsvcs",
+                "objectname": "UserMoodsModel",
+                "serviceid": "106401c4-a870-49be-93aa-b1b152461a4f",
+                "methodname": "create"
+            },
+            "enableMappingEditor": true
+        }, {
+            "id": "LOADING_INDICATOR_cac1bcc0acad4fb78856169fe57d9a1d",
+            "selectedOption": "dismiss",
+            "type": "LOADING_INDICATOR",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }]
+    }
+}

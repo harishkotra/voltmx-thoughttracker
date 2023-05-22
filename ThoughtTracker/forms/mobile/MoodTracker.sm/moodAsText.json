@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "37dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "-1dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sbb5fa4302cd4f5a8c5f619af72924bb",
+    "_text_": "I'm feeling awful",
+    "_top_": {
+        "type": "string",
+        "value": "553dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "id": "moodAsText",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "adb9299f279d4f4a8574ae40d966158c",
+    "linkskin": "s18fdfb4d20c41e9828bf49edf306bb3",
+    "name": "kony.ui.RichText",
+    "parent": "MoodTracker",
+    "pf": "MoodTracker",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

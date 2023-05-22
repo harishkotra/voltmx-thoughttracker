@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "173dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "117dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s81ab07bea69424b80d315a2fd210fbb",
+    "_text_": "😣",
+    "_top_": {
+        "type": "string",
+        "value": "146dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "57.60%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "49.96%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "41.90%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "id": "moodEmoji",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "fe673d16ec6a41bb86f7e5b29aa2b156",
+    "linkskin": "s18fdfb4d20c41e9828bf49edf306bb3",
+    "name": "kony.ui.RichText",
+    "parent": "moodContainer",
+    "pf": "MoodTracker",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

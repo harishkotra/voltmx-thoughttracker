@@ -1,0 +1,39 @@
+{
+  "operationConfig" : {
+    "name" : "createUserMoodsModel1303",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "referencingEndpoint" : "default",
+    "inputs" : [ {
+      "id" : "mood",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    } ],
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "opcode" : "create",
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "UserMoodsModel",
+      "actions" : {
+        "partialupdate" : true,
+        "create" : true,
+        "update" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

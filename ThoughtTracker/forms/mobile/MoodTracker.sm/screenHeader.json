@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "Default": {
+        "contentAlignment": 5
+    },
+    "_height_": {
+        "type": "string",
+        "value": "67dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "-1dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sd9768826472423cbffb3f36935a6d3a",
+    "_text_": "❤️  🫶  🔥  🌈  🦄",
+    "_top_": {
+        "type": "string",
+        "value": "43dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "android": {},
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "id": "screenHeader",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a5dfd14e65514974adf00aafff5f684d",
+    "linkskin": "s18fdfb4d20c41e9828bf49edf306bb3",
+    "name": "kony.ui.RichText",
+    "parent": "MoodTracker",
+    "pf": "MoodTracker",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

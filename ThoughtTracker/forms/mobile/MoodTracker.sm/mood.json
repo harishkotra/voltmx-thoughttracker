@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "133dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "100dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s7fb9ea4006a4b2691e8a83b318a5550",
+    "_text_": "AWFUL",
+    "_top_": {
+        "type": "string",
+        "value": "63dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "19.20%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "id": "mood",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "cb609f12ec7a4c9ea8412348a2314232",
+    "linkskin": "s18fdfb4d20c41e9828bf49edf306bb3",
+    "name": "kony.ui.RichText",
+    "parent": "moodContainer",
+    "pf": "MoodTracker",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

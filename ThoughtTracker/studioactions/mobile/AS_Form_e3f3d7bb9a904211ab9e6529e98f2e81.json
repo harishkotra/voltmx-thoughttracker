@@ -1,0 +1,23 @@
+{
+    "AS_Form_e3f3d7bb9a904211ab9e6529e98f2e81": {
+        "id": "AS_Form_e3f3d7bb9a904211ab9e6529e98f2e81",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "MoodTracker",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e32fd89183ad4556a188aea2f9559792"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ce801d3689b845879abd2c27e15a7a0f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "",
+            "parentId": null
+        }]
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "type" : "SAAS",
+  "description" : "Model to store mood data from a user of the app",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "create" : "createMapping",
+    "update" : "updateMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "UniquePrefixId" : "1e8fc2e9-d136-4800-abd2-6e628d3231f2",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

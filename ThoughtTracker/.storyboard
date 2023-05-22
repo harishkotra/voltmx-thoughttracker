@@ -1,0 +1,18 @@
+{
+    "models": {
+        "mobile": {
+            "class": "GraphLinksModel",
+            "linkDataArray": [],
+            "nodeDataArray": [
+                {
+                    "formKUID": "e32fd89183ad4556a188aea2f9559792",
+                    "formName": "MoodTracker",
+                    "isStartupForm": true,
+                    "key": "e32fd89183ad4556a188aea2f9559792",
+                    "loc": "8 24.845263671875003",
+                    "thumbnailURL": null
+                }
+            ]
+        }
+    }
+}

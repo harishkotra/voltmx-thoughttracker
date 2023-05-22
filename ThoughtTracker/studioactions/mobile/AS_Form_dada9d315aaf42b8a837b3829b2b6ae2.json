@@ -1,0 +1,26 @@
+{
+    "AS_Form_dada9d315aaf42b8a837b3829b2b6ae2": {
+        "id": "AS_Form_dada9d315aaf42b8a837b3829b2b6ae2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "MoodTracker",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e32fd89183ad4556a188aea2f9559792"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_LOCAL_VARIABLE_e3119ea10dcf44bab7f973b737c8878d",
+            "type": "ADD_LOCAL_VARIABLE",
+            "name": "selectedMood",
+            "isGlobal": true,
+            "valuetype": "simple",
+            "datatype": "number",
+            "value": "0"
+        }]
+    }
+}
